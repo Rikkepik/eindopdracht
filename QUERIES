@@ -1,0 +1,20 @@
+SELECT nummer,naam,prijs
+FROM onderdelen
+WHERE nummer = '1001';
+
+SELECT nummer,naam,prijs
+FROM onderdelen
+WHERE nummer LIKE '%10__%';
+
+SELECT nummer,naam,prijs
+FROM onderdelen
+WHERE prijs BETWEEN '5.00'AND '20.00';
+
+DEZE HIERONDER IS VOOR DE TOTAALPRIJS  BEREKENEN
+
+SELECT SUM(prijs) 
+FROM onderdelen
+WHERE nummer
+IN (
+'XXXX',  'YYYY'
+)
