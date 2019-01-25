@@ -1,0 +1,23 @@
+<DOCTYPE html>
+<head>
+</head>
+<body>
+<form>
+<h2>Voer hier het onderdeelnummer in.</h2><br>
+<input type="text" name="onderdeelnummer"><br>
+<button type="button">Toevoegen</button>
+</form>
+<form>
+<h3>Voer hier het aantal gewerkte uren in.<h3><br>
+<input type="number" name="gewerkteuren"><br>
+<button type="button">Toevoegen</button>
+</form>
+<ol>
+<li>gekozen onderdeel 1</li>
+<li>gekozen onderdeel 2</li>
+<li>gekozen onderdeel 3</li>
+<li>gekozen onderdeel 4</li>
+</ol>
+
+</body>
+</html>
